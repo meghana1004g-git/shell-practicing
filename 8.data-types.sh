@@ -10,7 +10,7 @@ echo "Sum is: $SUM"
 #Array
 FRUITS=("mango" "banana" "apple")
 echo "Fruits are: ${FRUITS[@]}"
-echo "First fruit is: ${FRUIT[0]}"
-echo "Second fruit is: ${FRUIT[1]}"
-echo "Thirdt fruit is: ${FRUIT[2]}"
+echo "First fruit is: ${FRUITS[0]}"
+echo "Second fruit is: ${FRUITS[1]}"
+echo "Thirdt fruit is: ${FRUITS[2]}"
 
