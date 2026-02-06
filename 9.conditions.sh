@@ -2,11 +2,10 @@
 #!/bin/bash
 NUMBER=1
 
-#-gt-->grater than
-#-lt-->less than
-#eq-->equal to
-#ne-->not equal
-
+# -gt -> grater than
+# -lt -> less than
+# -eq -> equl to
+# -ne -> not equal
 
 
 
