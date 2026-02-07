@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-SERID=$(id -u)
+USERID=$(id -u)
 LOGS_FOLDER="/var/log/shell-script"
 LOGS_FILE="/var/log/shell-script/$0.log"
 
@@ -12,7 +12,7 @@ N="\e[0m"
 
 
 
-UDERID=$(id -u)
+
 if [ $USERID -ne 0 ]; then
 echo -e $R "Please run this script with root user access $N" | tee -a $LOGS_FILE
  exit 1
